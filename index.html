@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Authentication page</title>
+		<meta charset="utf-8"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script1.js"></script>
+	</head>
+	
+	<body>
+		<div id="emptyspace1" style="width: 2000px; height: 250px; border: 1px; background-color: lightgreen;">
+		</div>
+		
+		<form>
+		
+			<div id="loginarea" align="center" style="width: 2000px; height: 250px; border: 1px;">
+				<hr>
+				<hr>
+				<br><br>
+				<label>USERNAME</label>&nbsp;&nbsp;
+				<input type="text" id="username"/>
+				<br><br><br>
+				<label>PASSWORD</label>&nbsp;&nbsp;
+				<input type="password" id="passwd"/>
+				<br><br><br>
+				<input type="button" id="btnsubmit" onClick="authentication()" value = "Submit"/>
+			</div>
+			
+		</form>
+			
+		<div id="reveal" align="center" style="width: 2000px; height: 150px; border: 1px; background-color: lightgrey; ">
+			<br><br>
+			<p id="hint3">Hint 1: Luke</p>
+			<p id="hint4">Hint 2: use the force Luke</p>
+		</div>
+			
+		<script src="script1.js"></script>
+		
+	</body>
+</html>
